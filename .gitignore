@@ -1,0 +1,6 @@
+## List of paths/files to ignore in the repository.
+
+node_modules
+
+.env*
+!.env.example
