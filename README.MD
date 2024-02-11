@@ -2,6 +2,8 @@
 
 Aplicación útil para manejar contenido de distintos tipos.
 
+NOTA: Algunos comandos mencionados son exclusivos de linux.
+
 
 # Setup
 
@@ -11,11 +13,11 @@ Pasos para ejecutar este proyecto:
 2. Clonar el repo
 3. Instalar dependencias en 
     
-    * backend (cd backend && yarn install)
-    * ui (cd ui && yarn install)
+    * backend (`cd backend && yarn install`)
+    * ui (`cd ui && yarn install`)
 4. Crear archivos .env y copiar el contenido de .env.example
-    * cp backend/.env.example backend/.env
-    * cp ui/.env.example ui/.env
+    * `cp backend/.env.example backend/.env`
+    * `cp ui/.env.example ui/.env`
 5. Sobreeescribir los valores de cada .env por valores correspondientes. (En cada .env ejemplo hay comentarios que indican los valores que se deben agregar)
 
 6. Si todo está bien ahora se puede ejecutar el comando `yarn dev` en cada uno de los proyectos.
