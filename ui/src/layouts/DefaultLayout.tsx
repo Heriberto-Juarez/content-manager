@@ -4,7 +4,6 @@ import logo from '/icon.png'
 
 import { NextUIProvider } from "@nextui-org/react";
 
-
 export default function DefaultLayout() {
     const navigate = useNavigate();
     return <>
@@ -12,8 +11,8 @@ export default function DefaultLayout() {
             <Navbar className="shadow-lg">
                 <NavbarBrand>
                     <Link href="/">
-                    <img src={logo} width={50} />
-                    <p className="font-bold text-inherit ml-2"></p></Link>
+                        <img src={logo} width={50} />
+                        <p className="font-bold text-inherit ml-2"></p></Link>
                 </NavbarBrand>
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 </NavbarContent>
@@ -28,7 +27,7 @@ export default function DefaultLayout() {
                     </NavbarItem>
                 </NavbarContent>
             </Navbar>
-            <div className="">
+            <div className="w-full">
                 <Outlet />
             </div>
         </NextUIProvider>

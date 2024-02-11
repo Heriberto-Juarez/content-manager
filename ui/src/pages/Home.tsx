@@ -5,10 +5,12 @@ import { Button, Card, CardBody } from '@nextui-org/react'
 import { MdCategory, MdSave, MdSearch } from 'react-icons/md'
 import { GrFormNextLink } from 'react-icons/gr'
 import { Link } from 'react-router-dom'
+import OnlyGuests from '../components/OnlyGuests'
 
 export default function Home() {
 
     return <div className="w-full min-h-[100vh]">
+        <OnlyGuests/>
         <div className="grid grid-cols-1 md:grid-cols-2">
 
             <div className='bg-[#ae87fc]  min-h-[100vh] py-10 px-6 p-3'>
